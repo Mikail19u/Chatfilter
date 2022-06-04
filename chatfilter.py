@@ -30,7 +30,7 @@ async def on_message(message):
             return    
     for bad_word in bad_words:
         if bad_word in message.content.lower().split(" "):
-            await message.delete()
+            await message.delete() 
             return
 
-client.run('TOKEN MOET HIER')
+client.run('TOKEN MOET HIER') #voeg je token hier
